@@ -20,6 +20,6 @@ public class IcqListTest {
     @MethodSource(value = "mixedArgumentsTestDataProvider")
     @ParameterizedTest(name = "Name {0}")
     void icqListTest(String firstArg, List<Integer> secondArg, String thirdArg) {
-        System.out.println("String:" + firstArg + " icq: " + secondArg.toString() +  thirdArg);
+        System.out.println("String:" + firstArg + " icq: " + secondArg.toString() + thirdArg);
     }
 }
